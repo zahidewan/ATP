@@ -1,7 +1,4 @@
-<script src="https://thimble.mozilla.org/resources/remix/index.js" type="text/javascript"></script>
-    <script type="text/javascript">
-
- function decode_url()
+function decode_url()
       {
      setTimeout("generate_decode_url(), 10");
    }
@@ -39,5 +36,3 @@
         alert(location.url_target=decode_url);
         prompt("Copy to clipboard: Ctrl+C, Enter", location.url_target=decode_url);
     }
-
-    </script>
